@@ -1,0 +1,9 @@
+/* Hide the bezel that appears when changing speed or volume, specifically targeting the speed one if possible, 
+   but usually it's a generic class. The user specifically asked to hide the "2x" visual. 
+   The class .ytp-bezel-text-wrapper is often used for this overlay. */
+
+.ytp-bezel-text-wrapper,
+.ytp-bezel,
+.ytp-speed-master-overlay {
+    display: none !important;
+}
