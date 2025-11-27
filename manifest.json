@@ -3,7 +3,6 @@
   "name": "Disable YouTube 2x Speed",
   "version": "1.0",
   "description": "Disables the 'hold to 2x speed' feature on YouTube.",
-  "permissions": ["activeTab"],
   "host_permissions": ["*://*.youtube-nocookie.com/*", "*://*.youtube.com/*"],
   "content_scripts": [
     {
